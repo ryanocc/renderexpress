@@ -64,7 +64,7 @@ app.get("/api/waze/partner-feed", async (req, res) => {
 app.get("/api/waze/tvt", async (req, res) => {
   try {
     const url =
-      "https://www.waze.com/row-partnerhub-api/feeds-tvt/?id=1709296452339";
+      "https://www.waze.com/row-partnerhub-api/feeds-tvt/?id=1713523744433";
 
     const r = await fetch(url, {
       headers: { "User-Agent": "occ-dashboard" }

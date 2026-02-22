@@ -8,6 +8,7 @@ const app = express();
    ====================================================== */
 const ALLOWED_ORIGINS = [
   "https://ryanocc.github.io",
+  "https://onecompiler.com",
   "https://app.onecompiler.com"
 ];
 
